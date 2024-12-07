@@ -18,6 +18,12 @@ Write a function `diagonalDifference(arr)` that:
 #### Output
 `15`
 
+## Edge Cases
+1. The matrix is a single element.
+2. The matrix contains all zeros.
+3. The matrix contains only negative numbers.
+4. The matrix is larger than 3x3 (e.g., 4x4 or 5x5).
+
 #### Explanation
 - Primary diagonal: `11 + 5 + (-12) = 4`
 - Secondary diagonal: `4 + 5 + 10 = 19`
@@ -31,9 +37,3 @@ Write a function `diagonalDifference(arr)` that:
 1. Save the `solution.py` and `testcase.py` files in the same directory.
 2. Run `testcase.py` to execute the unit tests.
 3. Alternatively, execute `solution.py` to test the function interactively.
-
-## Edge Cases
-1. The matrix is a single element.
-2. The matrix contains all zeros.
-3. The matrix contains only negative numbers.
-4. The matrix is larger than 3x3 (e.g., 4x4 or 5x5).
