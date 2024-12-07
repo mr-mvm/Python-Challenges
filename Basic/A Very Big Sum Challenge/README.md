@@ -7,11 +7,11 @@ The **A Very Big Sum Challenge** is a Python exercise to compute the sum of elem
 Write a function `aVeryBigSum(ar)` that takes a list of integers as input and returns their sum.
 
 ### Example
-```python
-Input:
+
+## Input:
 ar = [1000000001, 1000000002, 1000000003, 1000000004, 1000000005]
 
-Output:
+## Output:
 5000000015
 
 ## Files
@@ -22,3 +22,4 @@ Output:
 1. Save the `solution.py` and `testcase.py` files in the same directory.
 2. Run `testcase.py` to execute the unit tests.
 3. Alternatively, execute `solution.py` to test the function interactively.
+```python
