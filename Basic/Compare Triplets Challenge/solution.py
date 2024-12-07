@@ -1,13 +1,14 @@
 def compareTriplets(a, b):
     """
-    Compares two lists of integers and awards points for each comparison.
+    Compares two lists of integers element-wise and calculates scores for Alice and Bob.
 
     Parameters:
-        a (list of int): List of integers representing Alice's scores.
-        b (list of int): List of integers representing Bob's scores.
+        a (list of int): The scores given to Alice.
+        b (list of int): The scores given to Bob.
 
     Returns:
-        list of int: A list containing two integers, the scores for Alice and Bob respectively.
+        list of int: A two-element list where the first element is Alice's score,
+                     and the second is Bob's score.
     """
     alice_score = 0
     bob_score = 0
@@ -21,8 +22,14 @@ def compareTriplets(a, b):
     return [alice_score, bob_score]
 
 if __name__ == '__main__':
-    # Input handling for the interactive program
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
     a = list(map(int, input("Enter Alice's scores separated by space: ").rstrip().split()))
     b = list(map(int, input("Enter Bob's scores separated by space: ").rstrip().split()))
+
     result = compareTriplets(a, b)
-    print("Scores: Alice =", result[0], ", Bob =", result[1])
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
