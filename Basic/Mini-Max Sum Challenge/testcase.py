@@ -34,6 +34,5 @@ class TestMiniMaxSum(unittest.TestCase):
         result = self.capture_output(miniMaxSum, [1000000000, 1000000000, 1000000000, 1000000000, 1000000000])
         self.assertEqual(result, "4000000000 4000000000")
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
-
