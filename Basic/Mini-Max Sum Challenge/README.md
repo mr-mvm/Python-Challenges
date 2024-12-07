@@ -5,20 +5,20 @@ The **Mini-Max Sum Challenge** is a Python exercise to calculate and display the
 
 ## Problem Statement
 Write a function `miniMaxSum(arr)` that:
-1. Accepts an array `arr` of integers.
-2. Calculates:
-    - The minimum sum by excluding the largest element.
-    - The maximum sum by excluding the smallest element.
-3. Prints the minimum and maximum sums separated by a space.
+1. Calculates the sum of all elements in the array except one to find:
+   - The minimum sum by excluding the largest element.
+   - The maximum sum by excluding the smallest element.
+2. Prints the minimum and maximum sums separated by a space.
 
 ### Example
-For the input `arr = [1, 2, 3, 4, 5]`:
+#### Input
+`[1, 2, 3, 4, 5]`
+#### Output
+`10 14`
 
-Output:
-'10' '14'
-Explanation:
-• Minimum sum: 1 + 2 + 3 + 4 = 10 (excluding 5).
-• Maximum sum: 2 + 3 + 4 + 5 = 14 (excluding 1).
+#### Explanation
+- Minimum sum: \(1 + 2 + 3 + 4 = 10\) (excluding \(5\)).
+- Maximum sum: \(2 + 3 + 4 + 5 = 14\) (excluding \(1\)).
 
 ## Files
 - **solution.py**: Contains the implementation of the function.
