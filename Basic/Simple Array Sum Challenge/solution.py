@@ -1,18 +1,22 @@
 def simpleArraySum(ar):
     """
-    Returns the sum of all elements in the array.
+    Calculates the sum of all integers in the array.
 
     Parameters:
-        ar (list of int): List of integers.
+        ar (list of int): A list of integers.
 
     Returns:
-        int: Sum of all integers in the array.
+        int: The sum of the integers in the array.
     """
     return sum(ar)
 
 if __name__ == '__main__':
-    # Handling interactive input
-    ar_count = int(input("Enter the number of elements: ").strip())
-    ar = list(map(int, input("Enter the elements separated by space: ").rstrip().split()))
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    ar_count = int(input("Enter the number of elements in the array: ").strip())
+    ar = list(map(int, input("Enter the array elements separated by space: ").rstrip().split()))
+
     result = simpleArraySum(ar)
-    print("Sum of array elements:", result)
+
+    fptr.write(str(result) + '\n')
+    fptr.close()
