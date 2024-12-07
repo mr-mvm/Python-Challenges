@@ -20,3 +20,12 @@ b = [3, 6, 10]
 
 Output:
 [1, 1]
+
+## Files
+- **solution.py**: Contains the implementation of the function.
+- **testcase.py**: Includes unit tests to validate the function.
+
+## How to Run
+1. Save the `solution.py` and `testcase.py` files in the same directory.
+2. Run `testcase.py` to execute the unit tests.
+3. Alternatively, execute `solution.py` to test the function interactively.
