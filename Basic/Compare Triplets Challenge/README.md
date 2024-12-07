@@ -1,25 +1,29 @@
-# Compare Triplets Challenge
+# Compare the Triplets Challenge
 
 ## Overview
-The **Compare Triplets Challenge** is a Python problem designed to compare two lists of integers. Each list represents scores, and points are awarded based on which score is higher at each index.
+The **Compare the Triplets Challenge** is a Python exercise to compare two lists of integers and calculate scores for two participants, Alice and Bob.
 
 ## Problem Statement
-Write a function `compareTriplets(a, b)` that takes two lists of integers as input:
-- `a` represents Alice's scores.
-- `b` represents Bob's scores.
-
-The function returns a list of two integers:  
-- The first integer is Alice's total score.
-- The second integer is Bob's total score.
+Write a function `compareTriplets(a, b)` that:
+1. Takes two lists of integers `a` and `b`, representing the scores of Alice and Bob across three criteria.
+2. Compares the scores element by element:
+    - If Alice's score is greater, she gets 1 point.
+    - If Bob's score is greater, he gets 1 point.
+    - If the scores are equal, no points are awarded.
+3. Returns a list of two integers: `[Alice's score, Bob's score]`.
 
 ### Example
-```python
-Input:
-a = [5, 6, 7]
-b = [3, 6, 10]
+#### Input
+`a = [5, 6, 7]`  
+`b = [3, 6, 10]`
 
-Output:
-[1, 1]
+#### Output
+`[1, 1]`
+
+#### Explanation
+- Alice gets 1 point for the first criterion (5 > 3).
+- Bob gets 1 point for the third criterion (10 > 7).
+- No points for the second criterion (6 = 6).
 
 ## Files
 - **solution.py**: Contains the implementation of the function.
