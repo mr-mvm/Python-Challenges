@@ -1,16 +1,28 @@
-# SolveMeFirst Function
+# Solve Me First Challenge
 
 ## Overview
-This repository implements a simple Python function, `solveMeFirst`, to add two integers. It includes a main solution in `solution.py` and a separate testing script in `testcase.py` for verification and validation.
-
-## Files
-- `solution.py`: Contains the main implementation of the function.
-- `testcase.py`: A testing script using Python's `unittest` module to validate the correctness of the function.
+The **Solve Me First Challenge** is a simple Python exercise to implement a function that adds two integers and returns their sum.
 
 ## Problem Statement
-Write a function `solveMeFirst(a, b)` that takes two integers as input and returns their sum.
+Write a function `solveMeFirst(a, b)` that:
+1. Accepts two integers `a` and `b`.
+2. Returns their sum.
 
 ### Example
-```python
-Input: a = 3, b = 7
-Output: 10
+#### Input
+a = 3 b = 5
+
+#### Output
+8
+
+#### Explanation
+The function calculates the sum of \(3 + 5 = 8\).
+
+## Files
+- **solution.py**: Contains the implementation of the function.
+- **testcase.py**: Includes unit tests to validate the function.
+
+## How to Run
+1. Save the `solution.py` and `testcase.py` files in the same directory.
+2. Run `testcase.py` to execute the unit tests.
+3. Alternatively, execute `solution.py` to test the function interactively.
