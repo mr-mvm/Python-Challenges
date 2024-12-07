@@ -12,8 +12,8 @@ Write a function `miniMaxSum(arr)` that:
 
 ### Example
 For the input `arr = [1, 2, 3, 4, 5]`:
-```plaintext
-Output:
+
+## Output:
 10 14
 
 ## Files
