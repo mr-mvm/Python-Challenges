@@ -21,7 +21,7 @@ Write a function `plusMinus(arr)` that:
 `0.400000`
 `0.200000`
 
-Explanation
+#### Explanation
 `Positive ratio: 2/5 = 0.400000`
 `Negative ratio: 2/5 = 0.400000`
 `Zero ratio: 1/5 = 0.200000`
@@ -34,5 +34,3 @@ Explanation
 1. Save the `solution.py` and `testcase.py` files in the same directory.
 2. Run `testcase.py` to execute the unit tests.
 3. Alternatively, execute `solution.py` to test the function interactively.
-
-```plaintext
